@@ -1,7 +1,17 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Home
 ---
+   {% if page.url == '/' %}
+    <h1>Traveling the Universe</h1>
+    
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+    <h2>Journals from planet exploration:</h2>
+    <ul>
+      <li><a href="/post1/">Mars</a> - The explorer discovers a large, abandoned dish with a tower on Mars, standing as an enigmatic relic whose purpose remains a mystery.</li>
+      <li><a href="/post2/">Titan</a> - The explorer explores Titan’s methane seas, uncovering ancient, frozen structures while sensing an eerie presence lurking beneath the surface.
+
+
+
+    </ul>
+  {% endif %}
